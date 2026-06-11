@@ -13,6 +13,28 @@ reasoning loop — no Azure keys required), and progressively layers in real Azu
 
 ---
 
+## 📚 Lab index — one repo per week
+
+This repo is the **course hub**. Each week is also published as a **standalone, runnable repo**
+(detailed README + FastAPI starter + tests + Dockerfile + CI). Clone whichever lab you're working on.
+
+| Week | Lab repo | Enterprise use case | Endpoint |
+|------|----------|---------------------|----------|
+| **1** | [agentic-ai-azure-week01-foundations](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week01-foundations) | IT Helpdesk Triage Agent *(full agent loop)* | `POST /api/v1/triage` |
+| **2** | [agentic-ai-azure-week02-foundry-claims](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week02-foundry-claims) | Insurance Claims Intake | `POST /api/v1/claims/intake` |
+| **3–4** | [agentic-ai-azure-week03-04-agent-framework](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week03-04-agent-framework) | Wealth Management Research Assistant | `POST /api/v1/research` |
+| **5** | [agentic-ai-azure-week05-mcp-tools](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week05-mcp-tools) | Procurement Operations Agent (MCP) | `POST /api/v1/procure` |
+| **6–7** | [agentic-ai-azure-week06-07-multi-agent](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week06-07-multi-agent) | Loan Underwriting Pipeline | `POST /api/v1/underwrite` |
+| **8** | [agentic-ai-azure-week08-rag-grounding](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week08-rag-grounding) | Clinical Policy Assistant (RAG) | `POST /api/v1/policy/ask` |
+| **9** | [agentic-ai-azure-week09-hosting-scale](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week09-hosting-scale) | Customer Service Swarm (scale) | `POST /api/v1/support` |
+| **10** | [agentic-ai-azure-week10-observability](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week10-observability) | Advice Quality Monitoring | `POST /api/v1/advise` |
+| **11** | [agentic-ai-azure-week11-security](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week11-security) | HR Self-Service (OAuth2 OBO) | `POST /api/v1/hr/ask` |
+| **12** | [agentic-ai-azure-week12-capstone](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week12-capstone) | Capstone multi-agent app | `POST /api/v1/capstone` |
+
+> Browse them all: **https://github.com/satyajeetaiml-hue?tab=repositories&q=agentic-ai-azure**
+
+---
+
 ## Quick start
 
 ```bash

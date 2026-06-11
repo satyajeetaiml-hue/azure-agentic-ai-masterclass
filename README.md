@@ -1,5 +1,7 @@
 # Agentic AI on Azure — Enterprise Master Class (Starter Project)
 
+[![CI](https://github.com/satyajeetaiml-hue/azure-agentic-ai-masterclass/actions/workflows/ci.yml/badge.svg)](https://github.com/satyajeetaiml-hue/azure-agentic-ai-masterclass/actions/workflows/ci.yml)
+
 A production-oriented **FastAPI** starter for building agentic AI systems on Azure, structured to follow the
 **12-Week Enterprise Master Class** (see [`docs/Course-Enterprise-UseCases.md`](docs/Course-Enterprise-UseCases.md)).
 

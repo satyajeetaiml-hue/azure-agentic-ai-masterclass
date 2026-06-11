@@ -13,6 +13,56 @@ reasoning loop — no Azure keys required), and progressively layers in real Azu
 
 ---
 
+## 🏗️ Architecture
+
+The "north star" you build toward across the 12 weeks. Each block is annotated with the week(s) that
+implement it. (A plain-text version is in [`docs/Course-Enterprise-UseCases.md`](docs/Course-Enterprise-UseCases.md).)
+
+```mermaid
+flowchart TB
+    C["Clients / Channels<br/>Web · Teams · API consumers · M365 Copilot"]
+    C -->|"HTTPS / OAuth2 (Entra ID)"| GW["API Management<br/>rate limiting · JWT validation · WAF"]
+    GW --> API
+
+    subgraph API["FastAPI Orchestration Layer — the spine of every lab"]
+        direction TB
+        EP["/triage · /claims · /research · /procure · /underwrite<br/>/policy · /support · /advise · /hr · /capstone<br/>async · SSE streaming · Pydantic contracts"]
+    end
+
+    API --> FA["Foundry Agent Service<br/>(Wk 1–2)"]
+    API --> AF["Agent Framework<br/>memory · middleware (Wk 3–4)"]
+    API --> MCP["MCP / Tools Hub<br/>(Wk 5)"]
+    API --> ORCH["Multi-Agent Orchestration<br/>concurrent · handoff · HITL (Wk 6–7)"]
+
+    FA --> GROUND
+    AF --> GROUND
+    MCP --> GROUND
+    ORCH --> GROUND
+
+    subgraph GROUND["Grounding & State"]
+        direction LR
+        AIS["Azure AI Search<br/>RAG + security trimming (Wk 8)"]
+        COS["Cosmos DB<br/>memory / run state"]
+        RED["Redis<br/>session cache"]
+        BLOB["Blob Storage"]
+    end
+
+    subgraph CROSS["Cross-cutting concerns"]
+        direction LR
+        IDN["Identity & Security<br/>Entra ID · Managed Identity · Key Vault · OBO (Wk 11)"]
+        OBS["Observability & Quality<br/>OpenTelemetry · App Insights · Evaluations (Wk 10)"]
+    end
+
+    API -.-> CROSS
+    GROUND --> DEPLOY
+
+    subgraph DEPLOY["Deployment substrate (Wk 9)"]
+        SUB["Azure Container Apps · AKS · Functions<br/>Docker · Bicep/Terraform · GitHub Actions CI/CD"]
+    end
+```
+
+---
+
 ## 📚 Lab index — one repo per week
 
 This repo is the **course hub**. Each week is also published as a **standalone, runnable repo**.

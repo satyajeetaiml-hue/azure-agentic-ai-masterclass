@@ -15,21 +15,28 @@ reasoning loop — no Azure keys required), and progressively layers in real Azu
 
 ## 📚 Lab index — one repo per week
 
-This repo is the **course hub**. Each week is also published as a **standalone, runnable repo**
-(detailed README + FastAPI starter + tests + Dockerfile + CI). Clone whichever lab you're working on.
+This repo is the **course hub**. Each week is also published as a **standalone, runnable repo**.
 
-| Week | Lab repo | Enterprise use case | Endpoint |
-|------|----------|---------------------|----------|
-| **1** | [agentic-ai-azure-week01-foundations](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week01-foundations) | IT Helpdesk Triage Agent *(full agent loop)* | `POST /api/v1/triage` |
-| **2** | [agentic-ai-azure-week02-foundry-claims](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week02-foundry-claims) | Insurance Claims Intake | `POST /api/v1/claims/intake` |
-| **3–4** | [agentic-ai-azure-week03-04-agent-framework](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week03-04-agent-framework) | Wealth Management Research Assistant | `POST /api/v1/research` |
-| **5** | [agentic-ai-azure-week05-mcp-tools](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week05-mcp-tools) | Procurement Operations Agent (MCP) | `POST /api/v1/procure` |
-| **6–7** | [agentic-ai-azure-week06-07-multi-agent](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week06-07-multi-agent) | Loan Underwriting Pipeline | `POST /api/v1/underwrite` |
-| **8** | [agentic-ai-azure-week08-rag-grounding](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week08-rag-grounding) | Clinical Policy Assistant (RAG) | `POST /api/v1/policy/ask` |
-| **9** | [agentic-ai-azure-week09-hosting-scale](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week09-hosting-scale) | Customer Service Swarm (scale) | `POST /api/v1/support` |
-| **10** | [agentic-ai-azure-week10-observability](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week10-observability) | Advice Quality Monitoring | `POST /api/v1/advise` |
-| **11** | [agentic-ai-azure-week11-security](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week11-security) | HR Self-Service (OAuth2 OBO) | `POST /api/v1/hr/ask` |
-| **12** | [agentic-ai-azure-week12-capstone](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week12-capstone) | Capstone multi-agent app | `POST /api/v1/capstone` |
+> ✅ **All 12 weeks are fully built out** — every lab ships a runnable offline **mock backend**
+> (deterministic, fully tested) plus a lazy-imported **real Azure backend** selected by env vars, with
+> typed schemas, hermetic tests, a detailed README, Dockerfile, and green CI. **61 tests passing across
+> all repos.** Clone any week and run `uvicorn app.main:app --reload`.
+
+| Week | Lab repo | Enterprise use case | Key built-out feature | Status |
+|------|----------|---------------------|-----------------------|:------:|
+| **1** | [week01-foundations](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week01-foundations) | IT Helpdesk Triage Agent | reason→plan→act→observe loop + Foundry Responses | ✅ Built out |
+| **2** | [week02-foundry-claims](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week02-foundry-claims) | Insurance Claims Intake | Foundry Agent Service **function tool** loop | ✅ Built out |
+| **3–4** | [week03-04-agent-framework](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week03-04-agent-framework) | Wealth Research Assistant | memory + middleware (PII/disclaimer) + tools | ✅ Built out |
+| **5** | [week05-mcp-tools](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week05-mcp-tools) | Procurement Operations Agent | tool registry + idempotency + MCP discovery | ✅ Built out |
+| **6–7** | [week06-07-multi-agent](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week06-07-multi-agent) | Loan Underwriting Pipeline | concurrent agents + human-in-the-loop resume | ✅ Built out |
+| **8** | [week08-rag-grounding](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week08-rag-grounding) | Clinical Policy Assistant (RAG) | retrieval + security trimming + citations | ✅ Built out |
+| **9** | [week09-hosting-scale](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week09-hosting-scale) | Customer Service Swarm | durable background tasks + status polling | ✅ Built out |
+| **10** | [week10-observability](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week10-observability) | Advice Quality Monitoring | eval scoring + metrics/traces + OTel | ✅ Built out |
+| **11** | [week11-security](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week11-security) | HR Self-Service (least privilege) | Entra JWT + OBO + RBAC + audit | ✅ Built out |
+| **12** | [week12-capstone](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week12-capstone) | Capstone onboarding pipeline | staged multi-agent pipeline | ✅ Built out |
+
+Each lab endpoint is listed in its own README. Backends run in **mock mode** with no Azure; set the
+documented env vars (+ `az login`) to switch to the real Azure backend.
 
 > Browse them all: **https://github.com/satyajeetaiml-hue?tab=repositories&q=agentic-ai-azure**
 

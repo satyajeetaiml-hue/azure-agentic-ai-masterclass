@@ -1,0 +1,6 @@
+# Treat these as binary so Git never applies line-ending (CRLF) conversion.
+*.pdf  binary
+*.pptx binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary

@@ -106,6 +106,16 @@ offline** (the framework executes; Azure OpenAI is optional) and have green CI.
 📖 **[COMPARISON.md](COMPARISON.md)** — Microsoft Agent Framework vs. LangGraph vs. Semantic Kernel:
 abstractions, control flow, state, tools, Azure fit, the same agent in each, and how to choose.
 
+### Semantic Kernel + Azure data services
+Focused Semantic Kernel projects pairing a real SK kernel + native plugin with one Azure data store
+(each runs offline with an in-memory store; the Azure service is the optional backend):
+
+| Azure service | Repo | Use case |
+|---------------|------|----------|
+| **Azure Database for PostgreSQL** | [agentic-ai-azure-sk-postgresql](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql) | Orders Assistant — plugin queries a relational `orders` table |
+| **Azure AI Search** | [agentic-ai-azure-sk-ai-search](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search) | Knowledge Assistant (RAG) — plugin retrieves + cites sources |
+| **Azure Cosmos DB** | [agentic-ai-azure-sk-cosmosdb](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb) | Durable conversation memory — plugin remembers/recalls turns |
+
 ---
 
 ## Quick start

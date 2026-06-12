@@ -226,3 +226,10 @@ pytest -q
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
+
+## 📊 Teaching slides
+
+Download the **7-slide deck** for classroom use: [`azure-agentic-ai-masterclass.pptx`](slides/azure-agentic-ai-masterclass.pptx)
+
+> Slides: Title · Learning goal · Enterprise use case · Architecture/flow · Key concepts · Run it · Architect's takeaways.
+

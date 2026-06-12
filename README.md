@@ -103,6 +103,9 @@ offline** (the framework executes; Azure OpenAI is optional) and have green CI.
 | **LangGraph** | [agentic-ai-azure-langgraph](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph) | A `StateGraph` triage agent — nodes + conditional edges + state; optional Azure OpenAI node |
 | **Semantic Kernel** | [agentic-ai-azure-semantic-kernel](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel) | A `Kernel` + native plugin (`@kernel_function`); optional Azure automatic function calling |
 
+📖 **[COMPARISON.md](COMPARISON.md)** — Microsoft Agent Framework vs. LangGraph vs. Semantic Kernel:
+abstractions, control flow, state, tools, Azure fit, the same agent in each, and how to choose.
+
 ---
 
 ## Quick start

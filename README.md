@@ -237,6 +237,16 @@ pytest -q
 
 MIT — see [`LICENSE`](LICENSE).
 
+## 📖 Course book (PDF)
+
+A single **75-page printable book** compiling the whole project — cover, table of contents, and a
+chapter per repo (README + key source code), organized into parts (Overview · Weekly Labs · Framework
+Comparison · SK + Azure Data Services). Great as a teaching handout.
+
+**Download:** [`docs/Agentic-AI-on-Azure-Course-Book.pdf`](docs/Agentic-AI-on-Azure-Course-Book.pdf)
+
+---
+
 ## 📊 Teaching slides
 
 Every repo ships a **7-slide deck** (`.pptx`, with presenter notes) and a **PDF handout** (slides + notes).

@@ -92,6 +92,19 @@ documented env vars (+ `az login`) to switch to the real Azure backend.
 
 ---
 
+## 🧪 Other agent frameworks (bonus projects)
+
+The labs use the **Microsoft Agent Framework / Foundry**. These companion repos solve the same kind of
+problem with the two other major frameworks, so you can compare APIs side by side. Both run **for real
+offline** (the framework executes; Azure OpenAI is optional) and have green CI.
+
+| Framework | Repo | What it shows |
+|-----------|------|---------------|
+| **LangGraph** | [agentic-ai-azure-langgraph](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph) | A `StateGraph` triage agent — nodes + conditional edges + state; optional Azure OpenAI node |
+| **Semantic Kernel** | [agentic-ai-azure-semantic-kernel](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel) | A `Kernel` + native plugin (`@kernel_function`); optional Azure automatic function calling |
+
+---
+
 ## Quick start
 
 ```bash

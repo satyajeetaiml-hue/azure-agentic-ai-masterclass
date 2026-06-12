@@ -239,9 +239,37 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## 📊 Teaching slides
 
-Download the **7-slide deck** for classroom use: [`azure-agentic-ai-masterclass.pptx`](slides/azure-agentic-ai-masterclass.pptx)
+Every repo ships a **7-slide deck** (`.pptx`, with presenter notes) and a **PDF handout** (slides + notes).
+This is the master index — links download the file directly.
 
-Prefer PDF? Download the **handout (slides + speaker notes)**: [`azure-agentic-ai-masterclass-handout.pdf`](slides/azure-agentic-ai-masterclass-handout.pdf)
+> Slides per deck: Title · Learning goal · Enterprise use case · Architecture/flow · Key concepts · Run it · Architect's takeaways.
 
-> Slides: Title · Learning goal · Enterprise use case · Architecture/flow · Key concepts · Run it · Architect's takeaways.
+**This hub:** [Deck](slides/azure-agentic-ai-masterclass.pptx) · [Handout (PDF)](slides/azure-agentic-ai-masterclass-handout.pdf)
+
+### Weekly labs
+| Week | Download |
+|------|----------|
+| 1 — Foundations | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week01-foundations/raw/main/slides/agentic-ai-azure-week01-foundations.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week01-foundations/raw/main/slides/agentic-ai-azure-week01-foundations-handout.pdf) |
+| 2 — Foundry Claims | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week02-foundry-claims/raw/main/slides/agentic-ai-azure-week02-foundry-claims.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week02-foundry-claims/raw/main/slides/agentic-ai-azure-week02-foundry-claims-handout.pdf) |
+| 3–4 — Agent Framework | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week03-04-agent-framework/raw/main/slides/agentic-ai-azure-week03-04-agent-framework.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week03-04-agent-framework/raw/main/slides/agentic-ai-azure-week03-04-agent-framework-handout.pdf) |
+| 5 — MCP & Tools | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week05-mcp-tools/raw/main/slides/agentic-ai-azure-week05-mcp-tools.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week05-mcp-tools/raw/main/slides/agentic-ai-azure-week05-mcp-tools-handout.pdf) |
+| 6–7 — Multi-Agent | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week06-07-multi-agent/raw/main/slides/agentic-ai-azure-week06-07-multi-agent.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week06-07-multi-agent/raw/main/slides/agentic-ai-azure-week06-07-multi-agent-handout.pdf) |
+| 8 — RAG | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week08-rag-grounding/raw/main/slides/agentic-ai-azure-week08-rag-grounding.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week08-rag-grounding/raw/main/slides/agentic-ai-azure-week08-rag-grounding-handout.pdf) |
+| 9 — Hosting & Scale | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week09-hosting-scale/raw/main/slides/agentic-ai-azure-week09-hosting-scale.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week09-hosting-scale/raw/main/slides/agentic-ai-azure-week09-hosting-scale-handout.pdf) |
+| 10 — Observability | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week10-observability/raw/main/slides/agentic-ai-azure-week10-observability.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week10-observability/raw/main/slides/agentic-ai-azure-week10-observability-handout.pdf) |
+| 11 — Security | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week11-security/raw/main/slides/agentic-ai-azure-week11-security.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week11-security/raw/main/slides/agentic-ai-azure-week11-security-handout.pdf) |
+| 12 — Capstone | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week12-capstone/raw/main/slides/agentic-ai-azure-week12-capstone.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-week12-capstone/raw/main/slides/agentic-ai-azure-week12-capstone-handout.pdf) |
+
+### Framework comparison projects
+| Project | Download |
+|---------|----------|
+| LangGraph | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph/raw/main/slides/agentic-ai-azure-langgraph.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-langgraph/raw/main/slides/agentic-ai-azure-langgraph-handout.pdf) |
+| Semantic Kernel | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel/raw/main/slides/agentic-ai-azure-semantic-kernel.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-semantic-kernel/raw/main/slides/agentic-ai-azure-semantic-kernel-handout.pdf) |
+
+### Semantic Kernel + Azure data services
+| Project | Download |
+|---------|----------|
+| SK + PostgreSQL | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql/raw/main/slides/agentic-ai-azure-sk-postgresql.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-postgresql/raw/main/slides/agentic-ai-azure-sk-postgresql-handout.pdf) |
+| SK + AI Search | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search/raw/main/slides/agentic-ai-azure-sk-ai-search.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-ai-search/raw/main/slides/agentic-ai-azure-sk-ai-search-handout.pdf) |
+| SK + Cosmos DB | [Deck](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb/raw/main/slides/agentic-ai-azure-sk-cosmosdb.pptx) · [PDF](https://github.com/satyajeetaiml-hue/agentic-ai-azure-sk-cosmosdb/raw/main/slides/agentic-ai-azure-sk-cosmosdb-handout.pdf) |
 
